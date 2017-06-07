@@ -105,6 +105,18 @@ export default function() {
         image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg',
         description: "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
       }
+    }, {
+        type: 'rentals',
+        id: 'standard-living',
+        attributes: {
+          title: 'Stu\'s house',
+          owner: 'Stu Smi',
+          city: 'London',
+          propertyType: 'Flat',
+          bedrooms: 1,
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD3gnHVWalFB6dbh6EPU8nIWogqLlVX0DlE5c9DadnMqDUQenf',
+          description: "Super duper amazing place to live. You must be rolling in the benjamins"
+      }
     }];
 
   this.get('/rentals', function(db, request) {
